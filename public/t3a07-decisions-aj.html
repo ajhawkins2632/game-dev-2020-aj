@@ -1,0 +1,16 @@
+<h1 align=center>T3A07 Decisions by AJ<a/h1>
+
+<input id="myText01" type=text value="5">
+
+<input type="button" value="Decision" onclick="{
+  // you write the decision
+  if (document.getElementById('myText01').value == 5){
+    document.getElementById('myDiv01').innerHTML += '<br>It is a five, input was: '+document.getElementById('myText01').value
+  }
+  else if (document.getElementById('myText01').value == 3){
+  document.getElementById('myDiv01').innerHTML += '<br>It is a three, input was:'+document.getElementById('myText01').value
+  }
+
+}">
+
+<div id="myDiv01">...</div>
