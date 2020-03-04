@@ -1,0 +1,33 @@
+<h1 align=center>T3A11-Objects-AJ.html</h1>
+
+<input id="myText01" type=text value="AJ">
+
+<input type="button" value="Show Object" onclick="{
+
+  myObject = {
+    'myName' : document.getElementById('myText01').value,
+    'myHairColor' : 'brown',
+    'myFood' : 'Chicken Nugget',
+    'myColor' : 'Green',
+    'myArtist' : 'Madeon',
+  }
+ 
+  document.getElementById('myDiv01').innerHTML = myObject.myNumber = ' Name : ' + myObject.myName
+
+  document.getElementById('myDiv02').innerHTML = myObject.myNumber = ' Hair color : ' + myObject.myHairColor
+
+  document.getElementById('myDiv03').innerHTML = myObject.myNumber = ' Favorite Food : ' + myObject.myFood
+
+  document.getElementById('myDiv04').innerHTML = myObject.myNumber = ' Favorite Color : ' + myObject.myColor
+
+  document.getElementById('myDiv04').innerHTML = myObject.myNumber = ' Favorite Artist : ' + myObject.myArtist
+
+}">
+
+<div id="myDiv01">...</div>
+
+<div id="myDiv02">...</div>
+
+<div id="myDiv03">...</div>
+
+<div id="myDiv04">...</div>
